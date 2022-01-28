@@ -17,5 +17,9 @@ void dbgprint(const char* format, ...)
     // Hack.
     TBuf<256> buf;
     buf.Copy(TPtrC8((TText8*)buffer));
+#if defined(DBGPRINT_ENABLE_COLOR)
     RDebug::Print(_L("\033[93m%S\033[0m"), &buf);
+#else
+    RDebug::Print(_L("%S"), &buf);
+#endif
 }
