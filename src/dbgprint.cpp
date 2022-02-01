@@ -3,6 +3,7 @@
 #include <e32std.h>
 #include <e32svr.h>
 #include <stdarg.h>
+#include <stdio.h>
 #include "dbgprint.h"
 
 void dbgprint(const char* format, ...)
