@@ -1,8 +1,8 @@
-[![N-Gage SDK.](https://raw.githubusercontent.com/ngagesdk/ngage-toolchain/master/media/ngagesdk-readme-header.png)](https://raw.githubusercontent.com/ngagesdk/ngage-toolchain/master/media/ngagesdk-header-2x-white.png?raw=true "N-Gage SDK.")
-
 # dbgprint
 
 A simple debug output function for use with [EKA2L1](https://12z1.com/).
+This repository is a module used by the
+[ngage-toolchain](https://github.com/ngagesdk/ngage-toolchain).
 
 [![dbgprint() screenshot](https://raw.githubusercontent.com/ngagesdk/dbgprint/master/media/screenshot.png)](https://raw.githubusercontent.com/ngagesdk/dbgprint/master/media/screenshot.png?raw=true "dbgprint() screenshot")
 
